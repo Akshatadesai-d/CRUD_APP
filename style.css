@@ -1,0 +1,110 @@
+
+/* style.css: Basic styling for the app */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+/* Form Container */
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Heading */
+form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Form Input Fields */
+form input[type="text"],
+form input[type="number"],
+form button {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Focus State */
+form input[type="text"]:focus,
+form input[type="number"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.25);
+    outline: none;
+}
+
+/* Submit Button */
+form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Submit Button Hover Effect */
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Placeholder Text */
+form input::placeholder {
+    color: #aaa;
+    font-size: 14px;
+}
+
+/* Error or Success Messages */
+form .message {
+    text-align: center;
+    font-size: 14px;
+    color: green;
+    margin-bottom: 10px;
+}
+
+/* Form Alignment */
+form div {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+form div > input {
+    width: 48%;
+}
