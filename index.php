@@ -12,7 +12,7 @@
     
 </head>
 <body>
-    <h1>PHP CRUD Application</h1>
+    <h1>PHP CRUD APPLICATION</h1>
 
     <!-- Form to Add Item -->
     <form action="add.php" method="POST">
